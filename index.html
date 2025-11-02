@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glaucio Brandão — Site Oficial</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; line-height:1.6; color:#111; background:#fff; }
+    a { text-decoration: none; color:inherit; }
+    img { max-width:100%; height:auto; display:block; }
+
+    header { position: sticky; top:0; z-index:1000; background:#fff; border-bottom:1px solid #eee; }
+    .container { max-width:980px; margin:0 auto; padding:0 16px; }
+    .topbar { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:12px 0; }
+    .brand { display:flex; align-items:center; gap:12px; }
+    .brand img { width:56px; height:56px; border-radius:50%; object-fit:cover; }
+    .brand h1 { margin:0; font-size:20px; font-weight:700; white-space:nowrap; }
+    nav ul { display:flex; list-style:none; gap:18px; margin:0; padding:0; }
+    nav a { font-weight:600; }
+    nav a:hover { text-decoration:underline; }
+
+    .hero { border-bottom:1px solid #f0f0f0; }
+    .hero-inner { padding:22px 0 18px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .cta { display:inline-block; padding:10px 16px; border:1px solid #ccc; border-radius:10px; font-weight:700; }
+
+    section { padding:40px 0; }
+    h2 { font-size:22px; margin:0 0 10px; }
+    .em-breve { padding:28px; border:1px dashed #bbb; border-radius:12px; text-align:center; color:#666; }
+
+    .bio p { margin:14px 0; }
+    figure { margin:26px 0; }
+    figcaption { font-size:14px; color:#555; margin-top:8px; text-align:center; }
+
+    .links { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; padding:8px 0; }
+    .links a { padding:10px 14px; border:1px solid #ddd; border-radius:10px; font-weight:600; }
+
+    footer { border-top:1px solid #eee; padding:22px 0; color:#666; font-size:14px; text-align:center; }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho fixo com menu -->
+  <header>
+    <div class="container topbar">
+      <div class="brand">
+        <!-- substitua perfil.jpg pela sua foto real em assets/img/ -->
+        <img src="assets/img/perfil.jpg" alt="Glaucio Brandão — foto de perfil">
+        <h1>Glaucio Brandão — Site Oficial</h1>
+      </div>
+      <nav aria-label="principal">
+        <ul>
+          <li><a href="#caminhos">Caminhos</a></li>
+          <li><a href="#renascimento">Renascimento</a></li>
+          <li><a href="#legados">Legados</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="container hero-inner">
+      <div></div>
+      <a class="cta" href="https://promocards.byspotify.com/api/share/de7ace73-97ff-4596-ace9-9b2fcf766574" target="_blank" rel="noopener">Ouça o álbum no Spotify</a>
+    </div>
+  </div>
+
+  <!-- CONTATOS (alvo do menu "Contatos") -->
+  <section id="contatos" aria-label="Contatos">
+    <div class="container">
+      <h2>Contatos</h2>
+      <div class="links">
+        <a href="https://www.instagram.com/apademariapaulasg" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/share/1CmRu52pSX/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://promocards.byspotify.com/api/share/de7ace73-97ff-4596-ace9-9b2fcf766574" target="_blank" rel="noopener">Spotify</a>
+        <a href="mailto:contact@glauciobrandao.art.br">contact@glauciobrandao.art.br</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <!-- BIOGRAFIA -->
+    <section id="biografia" class="bio" aria-label="Biografia">
+      <!-- COLE AQUI o texto completo da biografia gláucio-final exatamente como aprovado -->
+      <!-- Use blocos <p>...</p> para os parágrafos da biografia. -->
+
+      <!-- FOTO 2 — PRÉDIO -->
+      <figure>
+        <img src="assets/img/predio.jpg" alt="Projeto ASAS — prédio/centro ambiental">
+        <figcaption><!-- legenda oficial do PRÉDIO --></figcaption>
+      </figure>
+
+      <!-- FOTO 3 — TAMANDUÁ-MIRIM -->
+      <figure>
+        <img src="assets/img/tamandua.jpg" alt="Soltura de tamanduá-mirim">
+        <figcaption><!-- legenda oficial do TAMANDUÁ-MIRIM --></figcaption>
+      </figure>
+
+      <!-- FOTO 4 — RETRATO NO ASAS -->
+      <figure>
+        <img src="assets/img/retrato-asas.jpg" alt="Glaucio Brandão em frente ao Centro Ambiental ASAS">
+        <figcaption><!-- legenda oficial do RETRATO --></figcaption>
+      </figure>
+
+      <!-- FOTO 5 — BORBOLETA MONARCA (antes do novo ciclo) -->
+      <figure>
+        <img src="assets/img/borboleta.jpg" alt="Borboleta-monarca — Euroclima/ONU (Costa Rica)">
+        <figcaption><!-- legenda oficial da BORBOLETA --></figcaption>
+      </figure>
+
+      <!-- FOTO 6 — MEIA FACE (final da página) -->
+      <figure>
+        <img src="assets/img/meia-face.jpg" alt="Glaucio Brandão — meia face">
+        <figcaption></figcaption>
+      </figure>
+    </section>
+
+    <!-- Seções clicáveis do menu (Em breve) -->
+    <section id="caminhos">
+      <h2>Caminhos</h2>
+      <div class="em-breve">Em breve</div>
+    </section>
+
+    <section id="renascimento">
+      <h2>Renascimento</h2>
+      <div class="em-breve">Em breve</div>
+    </section>
+
+    <section id="legados">
+      <h2>Legados</h2>
+      <div class="em-breve">Em breve</div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="y"></span> Glaucio Brandão — Todos os direitos reservados
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
